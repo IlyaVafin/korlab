@@ -1,6 +1,7 @@
 import type { Metadata } from "next"
 import localFont from "next/font/local"
 import "./globals.css"
+import Header from "../components/header/header"
 
 const grotesk = localFont({
 	src: [
@@ -12,7 +13,7 @@ const grotesk = localFont({
 		{
 			path: "./fonts/gratogrotesk-regular.woff2",
 			weight: "400",
-			style: "normal",  
+			style: "normal",
 		},
 		{
 			path: "./fonts/gratogrotesk-medium.woff2",
@@ -39,7 +40,12 @@ export default function RootLayout({
 }>) {
 	return (
 		<html lang='en'>
-			<body className={`${grotesk.className} antialiased`}>{children}</body>
+			<body className={`${grotesk.className} antialiased`}>
+				<div className='max-w-[1368px] ml-auto mr-auto mb-0 mt-0'>
+					<Header />
+				</div>
+				{children}
+			</body>
 		</html>
 	)
 }
