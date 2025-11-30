@@ -1,0 +1,30 @@
+@import "tailwindcss";
+
+:root {
+	--color-black: #000;
+	--primary-text-color: #fff;
+  --secondary-text-color: #B0B0B0;
+	--color-aqua: #00e4f0;
+	--color-orange: #ff4c00;
+
+	--gradient-orange: linear-gradient(
+		246.99deg,
+		var(--color-orange) 3.34%,
+		rgba(0, 0, 0, 0) 75.22%
+	);
+	--gradient-blue: linear-gradient(
+		246.99deg,
+		var(--color-aqua) 3.34%,
+		rgba(0, 0, 0, 0) 75.22%
+	);
+	--gradient-mix: linear-gradient(
+		68.23deg,
+		var(--color-orange) 9.46%,
+		#b38bce 52.36%,
+		var(--color-aqua) 91.95%
+	);
+}
+
+body {
+	background-color: var(--color-black);
+}
