@@ -1,6 +1,7 @@
 import Button from "@/src/components/button/button"
 import Image from "next/image"
-import { heroAdventages } from "./const/heroAdventages"
+import { heroAdventages } from "./const/hero-adventages"
+import HeroSlider from "./ui/hero-slider"
 
 export default function Hero() {
 	return (
@@ -39,7 +40,7 @@ export default function Hero() {
 					</p>
 				</div>
 			</div>
+			<HeroSlider/>
 		</section>
 	)
 }
-// text-white list-disc text-[18px] flex items-baseline gap-2

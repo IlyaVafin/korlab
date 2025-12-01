@@ -1,0 +1,24 @@
+.swiper-pagination-bullet {
+	width: 10px;
+	height: 10px;
+	text-align: center;
+	line-height: 20px;
+	font-size: 12px;
+	opacity: 1;
+	background: rgba(0, 0, 0);
+	border: 1px solid var(--color-aqua);
+}
+.swiper-pagination-bullets.swiper-pagination-horizontal {
+	width: 100px;
+	left: 50%;
+	transform: translate(-50%);
+}
+.swiper-pagination-bullet-active {
+	background: var(--color-aqua);
+}
+
+@media (min-width: 1024px) {
+	.mySwiper {
+		display: none;
+	}
+}
