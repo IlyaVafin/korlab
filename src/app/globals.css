@@ -9,7 +9,7 @@
 
 	--gradient-orange: linear-gradient(
 		246.99deg,
-		var(--color-orange) 3.34%,
+		#ff4c00 3.34%,
 		rgba(0, 0, 0, 0) 75.22%
 	);
 	--gradient-blue: linear-gradient(
@@ -23,6 +23,8 @@
 		#b38bce 52.36%,
 		var(--color-aqua) 91.95%
 	);
+	--radius-blocks: 8px; 
+	--radius-button: 30px;
 }
 
 body {
