@@ -11,7 +11,7 @@ export default function TuneNetWork() {
 				Настраивайте сеть и управляйте всеми устройствами через единый личный
 				кабинет
 			</TitleBlock>
-			<div className='grid gap-2.5 sm:grid-rows-1 sm:grid-cols-2 sm:gap-3 lg:mt-10'>
+			<div className='grid gap-2.5 lg:grid-rows-1 lg:grid-cols-2 lg:gap-3 lg:mt-10'>
 				<div className=''>
 					<Card
 						className='min-h-[220px] flex flex-col justify-between pr-0'
@@ -46,14 +46,10 @@ export default function TuneNetWork() {
 						</div>
 					</Card>
 				</div>
-				<div className='relative max-w-[793px] h-[310px] sm:h-[452px]'>
-					<Image src='/macbook.png' alt='macbook' fill />
-				</div>
-				<div className='max-w-[335px] w-full mt-[35px] col-span-2 justify-self-center'>
-					<Button variant='aqua'>
-						Испытать все возможности
-					</Button>
-				</div>
+					<Image src='/macbook.png' alt='macbook' width="0" height="0" sizes="100vw" className="h-auto w-full lg:h-full" />
+			</div>
+			<div className='max-w-[335px] w-full mt-[35px] col-span-2 justify-self-center'>
+				<Button variant='aqua'>Испытать все возможности</Button>
 			</div>
 		</section>
 	)
