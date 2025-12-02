@@ -39,11 +39,10 @@ export default function RootLayout({
 	children: React.ReactNode
 }>) {
 	return (
-		<html lang='en'>
+		<html lang='ru'>
 			<body className={`${grotesk.className} antialiased`}>
-				<div className='max-w-[1368px] ml-auto mr-auto mb-0 mt-0 pr-2 pl-2'>
+				<div className='max-w-[1408px] ml-auto mr-auto mb-0 mt-0 pr-5 pl-5'>
 					<Header />
-
 					{children}
 				</div>
 			</body>
