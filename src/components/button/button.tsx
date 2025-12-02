@@ -3,7 +3,7 @@
 import { HTMLAttributes } from "react"
 
 interface ButtonProps extends HTMLAttributes<HTMLButtonElement> {
-	variant: "orange" | "aqua"
+	variant: "aqua" | "mix"
 }
 export default function Button({ children, variant, ...rest }: ButtonProps) {
 	return (
@@ -12,7 +12,7 @@ export default function Button({ children, variant, ...rest }: ButtonProps) {
 			className={
 				variant === "aqua"
 					? "bg-(--color-aqua) text-[14px] font-medium uppercase w-full rounded-(--radius-button) h-9"
-					: ""
+					: "bg-(image:--gradient-mix) text-[20px] font-medium uppercase w-full rounded-(--radius-button) h-[52px]"
 			}
 		>
 			{children}

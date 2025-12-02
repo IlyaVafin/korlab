@@ -7,7 +7,7 @@ export default function Card({
 }: {
 	children: ReactNode
 	className?: string
-	variant: "aqua" | "orange"
+	variant: "aqua" | "orange" | "mix"
 }) {
 	return (
 		<>
@@ -27,6 +27,15 @@ export default function Card({
 				pr-[15px] pb-[11px] border border-px border-(--color-aqua) + ${
 					className ?? ""
 				}`}
+				>
+					{children}
+				</div>
+			)}
+			{variant === "mix" && (
+				<div
+					className={`bg-(image:--gradient-mix) rounded-(--radius-blocks) pt-3.5 pl-3.5 ${
+						className ?? ""
+					}`}
 				>
 					{children}
 				</div>

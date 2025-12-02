@@ -19,7 +19,7 @@ export default function Technology() {
 				/>
 				<Card
 					variant='orange'
-					className='pb-[19px]  h-full xl:h-[308px]'
+					className='pb-[19px] h-auto xl:h-[308px]'
 				>
 					<Typography
 						variant='description'
