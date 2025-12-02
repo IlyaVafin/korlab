@@ -1,4 +1,4 @@
-import Card from "@/src/components/orange-card/card"
+import Card from "@/src/components/card/card"
 import Typography from "@/src/components/typography/typography"
 import Image from "next/image"
 
