@@ -1,3 +1,4 @@
+import Button from "@/src/components/button/button"
 import Card from "@/src/components/card/card"
 import TitleBlock from "@/src/components/title-block/title-block"
 import Typography from "@/src/components/typography/typography"
@@ -36,7 +37,7 @@ export default function TuneNetWork() {
 							тонкая настройка
 						</Typography>
 						<div className=''>
-							<Typography className="mb-4" variant='description'>
+							<Typography className='mb-4' variant='description'>
 								Настройка тоннелей PPTP, L2TP, GRE, IPIP
 							</Typography>
 							<Typography variant='description'>
@@ -47,6 +48,11 @@ export default function TuneNetWork() {
 				</div>
 				<div className='relative max-w-[793px] h-[310px] sm:h-[452px]'>
 					<Image src='/macbook.png' alt='macbook' fill />
+				</div>
+				<div className='w-[335px] mt-[35px] col-span-2 justify-self-center'>
+					<Button variant='aqua'>
+						Испытать все возможности
+					</Button>
 				</div>
 			</div>
 		</section>
