@@ -1,3 +1,4 @@
+import Card from "@/src/components/orange-card/card"
 import Typography from "@/src/components/typography/typography"
 import Image from "next/image"
 
@@ -11,7 +12,7 @@ export default function HeroCard({
 	}
 }) {
 	return (
-		<div className='flex flex-col justify-between h-[220px] bg-(image:--gradient-blue) rounded-(--radius-blocks) pl-[15px] pt-[15px] pb-[15px] lg:pl-6 lg:pt-5 lg:pb-4 border border-px border-(--color-aqua) xl:max-w-md 2xl:w-[436px]'>
+		<Card variant="aqua" className='flex flex-col justify-between h-[220px] pl-[15px] pt-[15px] pb-[15px] lg:pl-6 lg:pt-5 lg:pb-4 xl:max-w-md 2xl:w-[436px]'>
 			<Image
 				width={slide.width}
 				height={60}
@@ -25,6 +26,6 @@ export default function HeroCard({
 			>
 				{slide.label}
 			</Typography>
-		</div>
+		</Card>
 	)
 }

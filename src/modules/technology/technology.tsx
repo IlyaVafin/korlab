@@ -1,5 +1,5 @@
 import Button from "@/src/components/button/button"
-import OrangeCard from "@/src/components/orange-card/orange-card"
+import Card from "@/src/components/orange-card/card"
 import TitleBlock from "@/src/components/title-block/title-block"
 import Typography from "@/src/components/typography/typography"
 import Image from "next/image"
@@ -12,7 +12,7 @@ export default function Technology() {
 				<div className='relative w-[793px] h-[220px] max-w-full sm:h-[250px] md:h-[280px] lg:h-[308px]'>
 					<Image fill src='/technology.png' alt='technology-image' />
 				</div>
-				<OrangeCard className='max-w-[793px] md:max-w-[450px]  mt-2.5 mb-2.5 pb-[19px] h-full md:mt-0 md:mb-0 lg:max-w-[563px]'>
+				<Card variant="orange" className='max-w-[793px] md:max-w-[450px]  mt-2.5 mb-2.5 pb-[19px] h-full md:mt-0 md:mb-0 lg:max-w-[563px]'>
 					<Typography
 						variant='description'
 						className='mb-[21px] xl:text-[24px] leading-[30px]'
@@ -25,7 +25,7 @@ export default function Technology() {
 					<Button className='mb-2' variant='aqua'>
 						о технологии
 					</Button>
-				</OrangeCard>
+				</Card>
 			</div>
 		</section>
 	)

@@ -1,9 +1,9 @@
 import Button from "@/src/components/button/button"
+import Card from "@/src/components/orange-card/card"
+import Typography from "@/src/components/typography/typography"
 import Image from "next/image"
 import { heroAdventages } from "./const/hero-adventages"
 import HeroSlider from "./ui/hero-slider"
-import OrangeCard from "@/src/components/orange-card/orange-card"
-import Typography from "@/src/components/typography/typography"
 
 export default function Hero() {
 	return (
@@ -12,7 +12,7 @@ export default function Hero() {
 				<div className='relative mt-10 mb-2.5 h-[270px] w-full lg:h-[569px] xl:h-[569px] xl:w-[563px] md:mb-0 md:mt-0 sm:h-[400px]'>
 					<Image fill src='/hero-img.png' alt='hero-router' />
 				</div>
-				<OrangeCard className='xl:max-w-[793px] xl:h-auto'>
+				<Card variant="orange" className='xl:max-w-[793px] xl:h-auto'>
 					<h1 className='text-white text-[30px] tracking-[3%] uppercase max-[320px]:text-[25px] xl:text-[50px]'>
 						Беспроводной интернет для бизнеса
 					</h1>
@@ -42,7 +42,7 @@ export default function Hero() {
 						* Без учета стоимости оборудования, возможен выкуп оборудования или
 						аренда, стоимость будет зависеть от модели мультироутера
 					</p>
-				</OrangeCard>
+				</Card>
 			</div>
 			<HeroSlider />
 		</section>
