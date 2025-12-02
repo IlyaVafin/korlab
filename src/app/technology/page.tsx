@@ -1,1 +1,3 @@
-export default function Technology() {}
+export default function Technology() {
+  
+}
