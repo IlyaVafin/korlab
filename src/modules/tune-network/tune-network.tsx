@@ -49,7 +49,7 @@ export default function TuneNetWork() {
 				<div className='relative max-w-[793px] h-[310px] sm:h-[452px]'>
 					<Image src='/macbook.png' alt='macbook' fill />
 				</div>
-				<div className='w-[335px] mt-[35px] col-span-2 justify-self-center'>
+				<div className='max-w-[335px] w-full mt-[35px] col-span-2 justify-self-center'>
 					<Button variant='aqua'>
 						Испытать все возможности
 					</Button>
