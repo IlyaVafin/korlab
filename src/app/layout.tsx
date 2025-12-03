@@ -41,10 +41,10 @@ export default function RootLayout({
 	return (
 		<html lang='ru'>
 			<body className={`${grotesk.className} antialiased`}>
-				<div className='max-w-[1408px] ml-auto mr-auto mb-0 mt-0 pr-5 pl-5'>
+				<div className='max-w-[1408px] mt-0 mb-0 mr-auto ml-auto'>
 					<Header />
-					{children}
 				</div>
+				{children}
 			</body>
 		</html>
 	)

@@ -7,7 +7,7 @@ import HeroCard from "./hero-card"
 export default function HeroSlider() {
 	return (
 		<>
-			<Slider slidesPerView={1}>
+			<Slider hideSliderOnDesktop={true} spaceBetween={20} slidesPerView={1}>
 				{heroCards.map(slide => (
 					<SwiperSlide className='min-h-[220px] mt-2.5' key={slide.label}>
 						<HeroCard slide={slide} />

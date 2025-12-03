@@ -9,10 +9,16 @@ export default function Hero() {
 	return (
 		<section className='mt-10'>
 			<div className='flex flex-col justify-center items-center lg:flex-row-reverse xl:items-end xl:gap-3 sm:gap-3'>
-				<div className='relative mt-10 mb-2.5 h-[270px] w-full lg:h-[569px] xl:h-[569px] xl:w-[563px] md:mb-0 md:mt-0 sm:h-[400px]'>
-					<Image fill src='/hero-img.png' alt='hero-router' />
-				</div>
-				<Card variant="orange" className='xl:max-w-[793px] xl:h-auto'>
+				<Image
+					width={0}
+					height={0}
+					className='w-full h-auto 2xl:h-[549px] 2xl:max-w-[563px] xl:max-w-[500px] xl:h-[541px]'
+					sizes='100vw'
+					src='/hero-img.png'
+					alt='hero-router'
+				/>
+
+				<Card variant='orange' className='w-full'>
 					<h1 className='text-white text-[30px] tracking-[3%] uppercase max-[320px]:text-[25px] xl:text-[50px]'>
 						Беспроводной интернет для бизнеса
 					</h1>
@@ -34,7 +40,9 @@ export default function Hero() {
 									src={"/list-disc.png"}
 									alt='list-marker'
 								/>
-								<Typography className="text-2xl" variant='description'>{adv.label}</Typography>
+								<Typography className='text-2xl' variant='description'>
+									{adv.label}
+								</Typography>
 							</li>
 						))}
 					</ul>

@@ -12,24 +12,24 @@ import SolutionCard from "./ui/solution-card"
 export default function Solution() {
 	return (
 		<section className='mt-[42px]'>
-			<TitleBlock className='mb-6'>
+			<TitleBlock className='mb-6 max-w-[800px] leading-10'>
 				Решение, созданное айтишниками для айтишников
 			</TitleBlock>
-			<Slider spaceBetween={20} slidesPerView={1}>
+			<Slider hideSliderOnDesktop={true} spaceBetween={20} slidesPerView={1}>
 				{solutionCards.map(card => (
 					<SwiperSlide key={card.title}>
 						<SolutionCard card={card} />
 					</SwiperSlide>
 				))}
 			</Slider>
-			<ul className='hidden lg:flex gap-3 mb-3'>
+			<ul className='hidden lg:flex gap-3 mb-3 mt-10 lg:justify-between'>
 				{solutionCards.map(card => (
 					<li key={card.title}>
 						<SolutionCard card={card} />
 					</li>
 				))}
 			</ul>
-			<div className='flex flex-col gap-2.5 lg:flex-row-reverse'>
+			<div className='flex flex-col gap-2.5 lg:flex-row-reverse mt-11'>
 				<Image
 					width='0'
 					height='0'
