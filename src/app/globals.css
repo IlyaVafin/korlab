@@ -34,7 +34,7 @@
 		var(--color-aqua) 91.95%
 	);
 	--radius-blocks: 8px;
-	--radius-button: 30px;
+	--radius-button-input: 30px;
 
 	--scale-animation: scale 0.9s ease infinite alternate;
 }

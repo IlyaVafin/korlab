@@ -35,7 +35,7 @@ export default function Slider({
 				pagination={pagination}
 			>
 				{children}
-				<div className='flex justify-between pl-5 pr-5'>
+				<div className='flex justify-between lg:pl-5 lg:pr-5'>
 					<button
 						onClick={() => swiperRef.current?.slidePrev()}
 						className='rotate-180'
