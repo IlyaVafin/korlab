@@ -1,9 +1,17 @@
 @import "tailwindcss";
 
+@keyframes scale {
+	0% {
+		transform: scale(1);
+	}
+	100% {
+		transform: scale(2);
+	}
+}
 :root {
 	--color-black: #000;
 	--primary-text-color: #fff;
-  --secondary-text-color: #B0B0B0;
+	--secondary-text-color: #b0b0b0;
 	--color-aqua: #00e4f0;
 	--color-orange: #ff4c00;
 
@@ -23,8 +31,10 @@
 		#b38bce 52.36%,
 		var(--color-aqua) 91.95%
 	);
-	--radius-blocks: 8px; 
+	--radius-blocks: 8px;
 	--radius-button: 30px;
+
+	--scale-animation: scale 0.9s ease infinite alternate;
 }
 
 body {
