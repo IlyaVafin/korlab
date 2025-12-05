@@ -2,6 +2,7 @@ import type { Metadata } from "next"
 import localFont from "next/font/local"
 import "./globals.css"
 import Header from "../components/header/header"
+import Footer from "../components/footer/footer"
 
 const grotesk = localFont({
 	src: [
@@ -45,6 +46,9 @@ export default function RootLayout({
 					<Header />
 				</div>
 				{children}
+				<div className="max-w-[1408px] mt-0 mb-0 mr-auto ml-auto">
+							<Footer />
+				</div>
 			</body>
 		</html>
 	)

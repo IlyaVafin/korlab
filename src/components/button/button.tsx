@@ -1,8 +1,8 @@
 "use client"
 
-import { HTMLAttributes } from "react"
+import { ButtonHTMLAttributes } from "react"
 
-interface ButtonProps extends HTMLAttributes<HTMLButtonElement> {
+interface ButtonProps extends ButtonHTMLAttributes<HTMLButtonElement> {
 	variant: "aqua" | "mix"
 }
 export default function Button({ children, variant, ...rest }: ButtonProps) {
