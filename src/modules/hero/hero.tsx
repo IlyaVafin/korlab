@@ -35,8 +35,9 @@ export default function Hero() {
 						{heroAdventages.map(adv => (
 							<li className='flex items-baseline gap-2' key={adv.label}>
 								<Image
-									width={8}
-									height={8}
+									className="max-w-2 w-full h-auto max-h-2"
+									width={0}
+									height={0}
 									src={"/list-disc.png"}
 									alt='list-marker'
 								/>
