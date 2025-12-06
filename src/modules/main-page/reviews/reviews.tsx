@@ -6,16 +6,17 @@ import TitleBlock from "@/src/components/title-block/title-block"
 import Typography from "@/src/components/typography/typography"
 import { SwiperSlide } from "swiper/react"
 import { reviewsCards } from "./const/reviewsCards"
+import Container from "@/src/components/container/container"
 
 export default function Reviews() {
 	return (
 		<section className='max-[1200px]:pr-5 max-[1200px]:pl-5'>
-			<div className='max-w-[1408px] mt-0 mb-0 mr-auto ml-auto'>
+			<Container className="p-0">
 				<TitleBlock className='max-w-[650px] mb-6 mt-10 lg:h-[123px]'>
 					95% клиентов выбирают{" "}
 					<span className='font-medium lowercase'>mrnet</span> после тест-драйва
 				</TitleBlock>
-						</div>
+						</Container>
 				<Slider
 					slidesPerView={"auto"}
 					freeMode={true}

@@ -1,11 +1,12 @@
 import Link from "next/link"
 import { footerLinks, footerLinksSecond } from "./const/footer-links"
 import Image from "next/image"
+import Container from "../container/container"
 
 export default function Footer() {
 	return (
 		<footer className='mt-10 text-[11px] text-white md:text-[12px] font-light'>
-			<div className='max-w-[1408px] mt-0 mb-0 mr-auto ml-auto pr-5 pl-5'>
+			<Container>
 				<h2 className='text-[14px] mb-4 lg:text-[20px] leading-10'>Дефолтный подвал</h2>
 				<div className='grid grid-cols-2 grid-rows-2 gap-4 lg:grid-cols-3'>
 					<p className=''>
@@ -59,7 +60,7 @@ export default function Footer() {
 					</div>
 					<p className='col-2 row-4 max-w-[129px] md:max-w-[229px] self-center'>©2025 mrnet.ru Все права защищены</p>
 				</div>
-			</div>
+			</Container>
 
 			<Image
 				width={0}

@@ -3,6 +3,7 @@ import localFont from "next/font/local"
 import "./globals.css"
 import Header from "../components/header/header"
 import Footer from "../components/footer/footer"
+import Container from "../components/container/container"
 
 const grotesk = localFont({
 	src: [
@@ -42,13 +43,12 @@ export default function RootLayout({
 	return (
 		<html lang='ru'>
 			<body className={`${grotesk.className} antialiased`}>
-				<div className='max-w-[1408px] mt-0 mb-0 mr-auto ml-auto'>
+				<Container>
 					<Header />
-				</div>
+				</Container>
 				{children}
 
-							<Footer />
-
+				<Footer />
 			</body>
 		</html>
 	)
