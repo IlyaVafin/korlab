@@ -1,12 +1,12 @@
-import Balance from "../modules/balance/balance"
-import ContactForm from "../modules/contact-form/contact-form"
-import Hero from "../modules/hero/hero"
-import QuantityClients from "../modules/quantity-clients/QuantityClients"
-import Reviews from "../modules/reviews/reviews"
-import Russia from "../modules/russia/russia"
-import Solution from "../modules/solution/solution"
-import Technology from "../modules/technology/technology"
-import TuneNetWork from "../modules/tune-network/tune-network"
+import Balance from "../modules/main-page/balance/balance"
+import ContactForm from "../modules/main-page/contact-form/contact-form"
+import Hero from "../modules/main-page/hero/hero"
+import QuantityClients from "../modules/main-page/quantity-clients/QuantityClients"
+import Reviews from "../modules/main-page/reviews/reviews"
+import Russia from "../modules/main-page/russia/russia"
+import Solution from "../modules/main-page/solution/solution"
+import Technology from "../modules/main-page/technology/technology"
+import TuneNetWork from "../modules/main-page/tune-network/tune-network"
 
 export default function Home() {
 	return (
