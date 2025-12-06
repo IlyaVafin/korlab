@@ -1,6 +1,6 @@
 import Container from "../components/container/container"
 import Balance from "../modules/main-page/balance/balance"
-import ContactForm from "../modules/main-page/contact-form/contact-form"
+import ContactForm from "../components/contact-form/contact-form"
 import Hero from "../modules/main-page/hero/hero"
 import QuantityClients from "../modules/main-page/quantity-clients/QuantityClients"
 import Reviews from "../modules/main-page/reviews/reviews"

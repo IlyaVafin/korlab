@@ -40,7 +40,7 @@ export default function Form() {
 					</div>
 				</div>
 			</fieldset>
-			<div className='mt-11'>
+			<div className='mt-11 max-w-[335px]'>
 				<Button type='submit' variant='mix'>
 					начать
 				</Button>

@@ -13,7 +13,7 @@ export default function ContactForm() {
 					</h2>
 				</Card>
 				<Card variant='aqua' className="lg:max-w-[908px] pb-[25px]">
-					<h2 className='text-white text-[19px] font-medium leading-[25px] uppercase max-w-[280px] mb-2.5'>
+					<h2 className='text-white text-[19px] font-medium leading-[25px] uppercase max-w-[280px] mb-2.5 md:max-w-full md:mb-6'>
 						Услуга доступна только для юридических лиц
 					</h2>
 					<Form/>

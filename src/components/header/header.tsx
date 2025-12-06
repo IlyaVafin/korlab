@@ -8,7 +8,9 @@ export default function Header() {
 		<header className='pt-9 max-[375px]:pl-5 max-[375px]:pr-5'>
 			<div className='flex justify-between max-[1200px]:flex-wrap items-center max-[1178px]:justify-center max-[1200px]:gap-8 max-[375px]:justify-between'>
 				<div className='flex flex-col min-[375px]:flex-row min-[375px]:gap-14'>
+					<Link href="/">
 					<Image className="w-full max-w-[185px] h-auto" width={0} height={0} src='/logo.svg' alt='logo' />
+					</Link>
 					<span className='text-(--color-aqua) mt-3.5'>7 800 600 35 38</span>
 				</div>
 				<nav>
