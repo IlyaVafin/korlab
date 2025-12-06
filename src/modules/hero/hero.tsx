@@ -8,17 +8,17 @@ import HeroSlider from "./ui/hero-slider"
 export default function Hero() {
 	return (
 		<section className='mt-10'>
-			<div className='flex flex-col justify-center items-center lg:flex-row-reverse xl:items-end xl:gap-3 sm:gap-3'>
+			<div className='flex flex-col justify-center items-center lg:flex-row-reverse xl:gap-3 sm:gap-3 lg:h-[530px]  xl:h-[565px]'>
 				<Image
 					width={0}
 					height={0}
-					className='w-full h-auto 2xl:h-[549px] 2xl:max-w-[563px] xl:max-w-[500px] xl:h-[541px]'
+					className='w-full h-full lg:max-w-[350px] xl:max-w-[525px]'
 					sizes='100vw'
 					src='/hero-img.png'
 					alt='hero-router'
 				/>
 
-				<Card variant='orange' className='w-full'>
+				<Card variant='orange' className='w-full h-full'>
 					<h1 className='text-white text-[30px] tracking-[3%] uppercase max-[320px]:text-[25px] xl:text-[50px]'>
 						Беспроводной интернет для бизнеса
 					</h1>
@@ -35,7 +35,7 @@ export default function Hero() {
 						{heroAdventages.map(adv => (
 							<li className='flex items-baseline gap-2' key={adv.label}>
 								<Image
-									className="max-w-2 w-full h-auto max-h-2"
+									className='max-w-2 w-full h-full max-h-2'
 									width={0}
 									height={0}
 									src={"/list-disc.png"}
