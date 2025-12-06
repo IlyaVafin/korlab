@@ -46,9 +46,9 @@ export default function RootLayout({
 					<Header />
 				</div>
 				{children}
-				<div className="max-w-[1408px] mt-0 mb-0 mr-auto ml-auto">
+
 							<Footer />
-				</div>
+
 			</body>
 		</html>
 	)
