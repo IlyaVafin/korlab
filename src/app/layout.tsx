@@ -8,22 +8,22 @@ import Container from "../components/container/container"
 const grotesk = localFont({
 	src: [
 		{
-			path: "./fonts/gratogrotesk-light.woff2",
+			path: "./fonts/gratogrotesk-light.woff",
 			weight: "300",
 			style: "normal",
 		},
 		{
-			path: "./fonts/gratogrotesk-regular.woff2",
+			path: "./fonts/gratogrotesk-regular.woff",
 			weight: "400",
 			style: "normal",
 		},
 		{
-			path: "./fonts/gratogrotesk-medium.woff2",
+			path: "./fonts/gratogrotesk-medium.woff",
 			weight: "500",
 			style: "normal",
 		},
 		{
-			path: "./fonts/gratogrotesk-bold.woff2",
+			path: "./fonts/gratogrotesk-bold.woff",
 			weight: "700",
 			style: "normal",
 		},
