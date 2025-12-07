@@ -11,7 +11,7 @@ export default function CompositionCard({
 	i: number
 }) {
 	return (
-		<Card style={{maxWidth: i === 0 ? "333px" : i === 1 ? "448px" : "563px"}} variant='aqua' className='max-h-[826px]'>
+		<Card variant='aqua' className='max-h-[826px] card'>
 			<div>
 				<div className='text-white flex gap-[5px]'>
 					<span
