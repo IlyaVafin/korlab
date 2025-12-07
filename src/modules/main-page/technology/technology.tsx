@@ -8,7 +8,7 @@ export default function Technology() {
 	return (
 		<section className='mt-10 mb-10'>
 			<TitleBlock className='hidden md:block'>технология</TitleBlock>
-			<div className='flex flex-col gap-2.5 xl:gap-3 items-center xl:flex-row'>
+			<div className='flex flex-col gap-2.5 xl:gap-3  xl:flex-row'>
 				<Image
 					width='0'
 					height='0'
@@ -17,22 +17,23 @@ export default function Technology() {
 					src='/technology.png'
 					alt='technology-image'
 				/>
-				<Card
-					variant='orange'
-					className='pb-[19px] h-auto xl:h-[308px]'
-				>
-					<Typography
-						variant='description'
-						className='mb-[21px] xl:text-[24px] leading-[30px]'
-					>
-						Прокачайте свой интернет с высокоскоростными технологиями{" "}
-						<span className='font-medium'>mrnet</span>. Наш мультироутер
-						суммирует несколько каналов связи в один (технология бондинг),
-						значительно повышая устойчивость и скорость соединения!
-					</Typography>
-					<Button className='mb-2' variant='aqua'>
-						о технологии
-					</Button>
+				<Card variant='orange' className='pb-[19px] h-auto xl:max-w-[563px] '>
+					<div className='flex flex-col justify-between h-full'>
+						<Typography
+							variant='description'
+							className='mb-[21px] xl:mb-0 xl:text-[24px] leading-[30px]'
+						>
+							Прокачайте свой интернет с высокоскоростными технологиями{" "}
+							<span className='font-medium'>mrnet</span>. Наш мультироутер
+							суммирует несколько каналов связи в один (технология бондинг),
+							значительно повышая устойчивость и скорость соединения!
+						</Typography>
+						<div className='max-w-[335px]'>
+							<Button className='mb-2' variant='aqua'>
+								о технологии
+							</Button>
+						</div>
+					</div>
 				</Card>
 			</div>
 		</section>
