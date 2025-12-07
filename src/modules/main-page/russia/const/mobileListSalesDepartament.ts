@@ -1,34 +1,73 @@
 export const mobileListSalesDepartament = [
-  {
-    city: "Москва",
-    phone: "8 800 600 35 38"
-  },
-  {
-    city: "Санкт-Петербург",
-    phone: "8 931 394 46 11"
-  },
-  {
-    city: "Казань",
-    phone: "8 904 769 96 54"
-  },
-  {
-    city: "Краснодар",
-    phone: "8 993 307 01 77"
-  },
-  {
-    city: "Челябинск",
-    phone: "8 922 636 86 06"
-  },
-  {
-    city: "Екатеринбург",
-    phone: "8 902 635 22 39"
-  },
-  {
-    city: "Новосибирск",
-    phone: "8 902 635 22 39"
-  },
-  {
-    city: "Владивосток",
-    phone: "8 902 635 22 39"
-  }
+	{
+		city: "Москва",
+		phone: "8 800 600 35 38",
+		startCol: 4,
+		endCol: 24,
+		startRow: 11,
+		endRow: 24,
+	},
+	{
+		city: "Санкт-Петербург",
+		phone: "8 931 394 46 11",
+		self: "center",
+		startCol: 5,
+		endCol: 7,
+		startRow: 8,
+		endRow: 0,
+	},
+	{
+		city: "Казань",
+		phone: "8 904 769 96 54",
+		self: "center",
+		startCol: 6,
+		endCol: 0,
+		startRow: 13,
+		endRow: 0,
+	},
+	{
+		city: "Краснодар",
+		phone: "8 993 307 01 77",
+		self: "center",
+		startCol: 3,
+		endCol: 0,
+		startRow: 15,
+		endRow: 0,
+	},
+	{
+		city: "Челябинск",
+		phone: "8 922 636 86 06",
+		startCol: 7,
+		endCol: 11,
+		startRow: 18,
+		self: "center",
+		endRow: 0,
+	},
+	{
+		city: "Екатеринбург",
+		phone: "8 902 635 22 39",
+		startCol: 7,
+		endCol: 11,
+		startRow: 15,
+		self: "center",
+		endRow: 0,
+	},
+	{
+		city: "Новосибирск",
+		phone: "8 902 635 22 39",
+		startCol: 11,
+		endCol: 0,
+		startRow: 19,
+		self: "start",
+		endRow: 0,
+	},
+	{
+		city: "Владивосток",
+		phone: "8 902 635 22 39",
+		startCol: 22,
+		endCol: 0,
+		startRow: 22,
+		self: "start",
+		endRow: 0,
+	},
 ]

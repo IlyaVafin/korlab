@@ -33,13 +33,15 @@ export default function Russia() {
 					/>
 
 					<div className='absolute inset-0 grid grid-cols-12 grid-rows-12'>
-						<Image
-							alt='star'
-							src='/star.svg'
-							width={0}
-							height={0}
-							className='w-full h-auto row-3 col-12 self-end justify-self-end max-w-40 max-h-40'
-						/>
+						<div className='col-start-2 col-end-4 justify-self-start row-start-6 row-end-9 self-end'>
+							<Image
+								alt='star'
+								src='/star.svg'
+								width={0}
+								height={0}
+								className='w-full h-auto row-3 col-12 self-end justify-self-end max-w-40 max-h-40'
+							/>
+						</div>
 						<div className='col-11 row-12 self-center justify-self-start max-w-40 max-h-40'>
 							<Image
 								alt='star'
@@ -119,13 +121,13 @@ export default function Russia() {
 							height={0}
 							className='h-auto  animate-(--scale-animation) max-w-40 max-h-40'
 						/>
-						<div className='row-6 col-2'>
+						<div className='row-6 col-start-2 col-end-4 justify-self-start'>
 							<Image
 								alt='star'
 								src='/star.svg'
 								width={0}
 								height={0}
-								className='w-full h-auto  max-w-40 max-h-40'
+								className='w-full h-auto  max-w-30 max-h-30'
 							/>
 						</div>
 						<div className='col-start-4 col-end-5 row-5 justify-self-start'>
@@ -137,7 +139,7 @@ export default function Russia() {
 								className='w-full h-auto max-w-30 max-h-30 animate-(--scale-animation)'
 							/>
 						</div>
-						<div className='row-6 col-start-3 col-end-5 justify-self-start'>
+						<div className='row-6 col-start-3 col-end-5 justify-self-center'>
 							<Image
 								alt='star'
 								src='/star.svg'
@@ -297,30 +299,94 @@ export default function Russia() {
 							height={0}
 							className='h-auto w-full row-6 col-12 animate-(--scale-animation) max-w-40 max-h-40'
 						/>
-						<div className='h-[15px] w-[15px] bg-(--color-aqua) text-[12px] flex justify-center items-center row-6 col-2 justify-self-end lg:hidden'>
+						<div className='col-start-2 col-end-4 justify-self-center row-6'>
+							<Image
+								alt='star'
+								src='/star.svg'
+								width={0}
+								height={0}
+								className='h-auto w-full animate-(--scale-animation) max-w-30 max-h-30'
+							/>
+						</div>
+						<div className='col-start-2 col-end-5 justify-self-center row-start-5 row-end-9 self-end'>
+							<Image
+								alt='star'
+								src='/star.svg'
+								width={0}
+								height={0}
+								className='h-auto w-full animate-(--scale-animation) max-w-40 max-h-40'
+							/>
+						</div>
+						<div className='col-start-2 col-end-4 justify-self-center row-start-5 row-end-9 self-end'>
+							<Image
+								alt='star'
+								src='/star.svg'
+								width={0}
+								height={0}
+								className='h-auto w-full animate-(--scale-animation) max-w-30 max-h-30'
+							/>
+						</div>
+						<div className='h-[15px] w-[15px] bg-(--color-aqua) text-[12px] flex justify-center items-center row-6 col-2 justify-self-end lg:hidden z-10'>
 							1
 						</div>
-						<div className='h-[15px] w-[15px] bg-(--color-aqua) text-[12px] flex justify-center items-center row-5 col-2 justify-self-end lg:hidden'>
+						<div className='h-[15px] w-[15px] bg-(--color-aqua) text-[12px] flex justify-center items-center row-5 col-2 justify-self-end lg:hidden z-10'>
 							2
 						</div>
-						<div className='h-[15px] w-[15px] bg-(--color-aqua) text-[12px] flex justify-center items-center row-7 col-3 lg:hidden'>
+						<div className='h-[15px] w-[15px] bg-(--color-aqua) text-[12px] flex justify-center items-center row-7 col-3 lg:hidden z-10'>
 							3
 						</div>
-						<div className='h-[15px] w-[15px] bg-(--color-aqua) text-[12px] flex justify-center items-center  col-1 row-9 justify-self-end lg:hidden'>
+						<div className='h-[15px] w-[15px] bg-(--color-aqua) text-[12px] flex justify-center items-center  col-1 row-9 justify-self-end lg:hidden z-10'>
 							4
 						</div>
-						<div className='h-[15px] w-[15px] bg-(--color-aqua) text-[12px] flex justify-center items-center row-8 col-3 justify-self-end lg:hidden'>
+						<div className='h-[15px] w-[15px] bg-(--color-aqua) text-[12px] flex justify-center items-center row-8 col-3 justify-self-end lg:hidden z-10'>
 							5
 						</div>
-						<div className='h-[15px] w-[15px] bg-(--color-aqua) text-[12px] flex justify-center items-center row-7 col-4 self-end  lg:hidden'>
+						<div className='h-[15px] w-[15px] bg-(--color-aqua) text-[12px] flex justify-center items-center row-7 col-4 self-end  lg:hidden z-10'>
 							6
 						</div>
-						<div className='h-[15px] w-[15px] bg-(--color-aqua) text-[12px] flex justify-center items-center row-10 col-6 lg:hidden'>
+						<div className='h-[15px] w-[15px] bg-(--color-aqua) text-[12px] flex justify-center items-center row-10 col-6 lg:hidden z-10'>
 							7
 						</div>
-						<div className='h-[15px] w-[15px] bg-(--color-aqua) text-[12px] flex justify-center items-center row-end-13 col-11 lg:hidden'>
+						<div className='h-[15px] w-[15px] bg-(--color-aqua) text-[12px] flex justify-center items-center row-end-13 col-11 lg:hidden z-10'>
 							8
 						</div>
+						<ul className='hidden lg:absolute lg:inset-0 lg:grid lg:grid-rows-24 lg:grid-cols-24'>
+							{mobileListSalesDepartament.map((dep, i) => (
+								<li
+									style={{
+										gridColumnStart: dep.startCol,
+										gridColumnEnd: dep.endCol,
+										gridRowStart: dep.startRow,
+										gridRowEnd: dep.startRow,
+										justifySelf: dep.self,
+									}}
+									className=' w-[157px]'
+									key={dep.city}
+								>
+									{i === 4 ? (
+										<>
+											<div className='bg-white w-3 h-3'></div>
+											<h4 className='inline-block bg-(--color-aqua) ml-3 pr-2'>
+												{dep.city}
+											</h4>{" "}
+											<p className='inline-block bg-(--color-aqua) ml-3 pr-2'>
+												{dep.phone}
+											</p>
+										</>
+									) : (
+										<>
+											<h4 className='inline-block bg-(--color-aqua) ml-3 pr-2'>
+												{dep.city}
+											</h4>{" "}
+											<p className='inline-block bg-(--color-aqua) ml-3 pr-2'>
+												{dep.phone}
+											</p>
+											<div className='bg-white w-3 h-3'></div>
+										</>
+									)}
+								</li>
+							))}
+						</ul>
 					</div>
 				</div>
 			</div>
